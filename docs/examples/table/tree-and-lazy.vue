@@ -1,6 +1,7 @@
 <template>
   <div>
     <el-table
+      ref="multipleTableRef"
       :data="tableData"
       style="width: 100%; margin-bottom: 20px"
       row-key="id"
